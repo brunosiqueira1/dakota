@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]><!-->
+{% load static %}
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Construtora Dakota</title>
+    <meta name="description" content="Multipurpose HTML template.">
+    <link rel="stylesheet" href="{% static 'scripts/bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/content-box.css' %}">
+    <link rel="stylesheet" href="{% static 'scripts/flexslider/flexslider.css' %}">
+    <link rel="stylesheet" href="{% static 'scripts/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animations.css' %}">
+    <link rel="stylesheet" href="{% static 'css/components.css' %}">
+    <link rel="stylesheet" href="{% static 'scripts/php/contact-form.css' %}">
+    <link rel="icon" href="{% static '/images/favicon.png' %}">
+    <link rel="stylesheet" href="{% static 'css/skin.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'css/logo.css' %}"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="{% static 'scripts/iconsmind/line-icons.min.css' %}">
+    
+</head>
+<body>
+    <div id="preloader"></div>
+    <header class="fixed-top scroll-change bg-transparent menu-transparent" data-menu-anima="fade-bottom">
+        <div class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top" role="navigation">
+            <div class="navbar navbar-main">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a  class="navbar-brand" href="index-construction.html">
+                            <img class="scroll-hide" src="{% static 'images/logo-white.png' %}" alt="logo" />
+                            <img class="scroll-show" src="{% static 'images/logo.png' %}" alt="logo" />
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <div class="nav navbar-nav navbar-right">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <a href="#topo">Home</a>
+                                </li>
+                                
+                                <li class="dropdown" >
+                                    <a href="#sobre">Dakota</a>
+                                </li>
+                                        
+                                <li class="dropdown">
+                                    <a href="#servicos">Serviços</a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="#empreendimentos">Empreendimentos</a>
+                                </li>                                        
+                            </ul>
+                                </li>
+
+                            <div class="custom-area">
+                                <a href="#contato" class="scroll-hide btn btn-border btn-sm">Entrar em Contato</a>
+                                <a href="#contato" class="navbar-brand btn scroll-show" style="height: 38px; width: 172px">Entrar em Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="topo" class="section-bg-image parallax-window white ken-burn-center" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="{% static 'images/hd-4.jpg' %}">
+        <div class="container content">
+            <hr class="space" />
+            <hr class="space" />
+            <hr class="space l" />
+            <div class="row vertical-row">
+                <div class="col-md-6">
+                    <div class="flexslider slider" data-options="controlNav:false,directionNav:false,slideshowSpeed:3000">
+                        <ul class="slides">
+                            <li>
+                                <h1 class="text-uppercase text-left-xs">A melhor empresa de construções desde 1895</h1>
+                            </li>
+                            <li>
+                                <h1 class="text-uppercase text-left-xs">Nossa missão é desenvolver os melhores edifícios</h1>
+                            </li>
+                            <li>
+                                <h1 class="text-uppercase text-left-xs">MAIOR CONSTRUTORA DO NORTE DE MINAS</h1>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr class="space m" />
+                    <p class="text-left-xs">
+                        Cada um de nós está esculpindo uma pedra, erigindo uma coluna ou cortando um 
+                        pedaço de vitral na construção de algo muito maior do que nós.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-left-xs">
+                    <hr class="space visible-xs" />
+                    <a href="https://www.youtube-nocookie.com/embed/DrjA0cMEI5s?controls=0" data-lightbox-anima="fade-right" class="btn btn-lg btn-play text-color lightbox mfp-iframe">Assista o Vídeo<i></i></a>
+                </div>
+            </div>
+            <hr class="space" />
+            <hr class="space" />
+        </div>
+    </div>
+    <div class="section-empty bg-white">
+        <div class="container content">
+            <div class="row" data-anima="fade-bottom" data-timeline="asc" data-timeline-time="300">
+                <div class="col-md-3 anima">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="im-conference text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Inovação</label>
+                            <p class="text-s">Tecnologia, comunicação</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 anima">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="im-crane text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Construção</label>
+                            <p class="text-s">Velocidade, flexibilidade</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 anima">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="im-pencil-ruler text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Engenharia</label>
+                            <p class="text-s">Modernidade, otimização</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 anima">
+                    <div class="icon-box">
+                        <div class="icon-box-cell">
+                            <i class="im-solar text-xl"></i>
+                        </div>
+                        <div class="icon-box-cell">
+                            <label class="text-m">Energia</label>
+                            <p class="text-s">Sol, óleo e gás</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sobre" class="section-empty">
+            <div class="container content">
+                <h2 class="text-center text-left-xs">Nós trabalhamos para tornar mais fácil para as organizações trabalharem e crescerem em uma escala internacional</h2>
+                <hr class="space" />
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="advs-box advs-box-side-icon boxed-inverse extra-content-cnt"style data-href="">
+                            <div class="icon-box">
+                                <i class="im-conference icon"></i>
+                            </div>
+                            <div class="caption-box">
+                                <h3>Liderança</h3>
+                                <span class="extra-content">Purus expedita fusce temporibus est odit mi quoeliquid sempere</span>
+                                <p>
+                                    Interdum iusto pulvinar consequuntur augue optio, repellat fuga! Purus expedita fusce temporibus est odit mi quos? Aliquid semper, veritatis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="advs-box advs-box-side-icon boxed-inverse extra-content-cnt"style data-href="">
+                            <div class="icon-box">
+                                <i class="im-medal icon"></i>
+                            </div>
+                            <div class="caption-box">
+                                <h3>Visão</h3>
+                                <span class="extra-content">Purus expedita fusce temporibus est odit mi quoeliquid sempere</span>
+                                <p>
+                                    Interdum iusto pulvinar consequuntur augue optio, repellat fuga! Purus expedita fusce temporibus est odit mi quos? Aliquid semper, veritatis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="advs-box advs-box-side-icon boxed-inverse extra-content-cnt"style data-href="">
+                            <div class="icon-box">
+                                <i class="im-flash icon"></i>
+                            </div>
+                            <div class="caption-box">
+                                <h3>Valores</h3>
+                                <span class="extra-content">Purus expedita fusce temporibus est odit mi quoeliquid sempere</span>
+                                <p>
+                                    Interdum iusto pulvinar consequuntur augue optio, repellat fuga! Purus expedita fusce temporibus est odit mi quos? Aliquid semper, veritatis dignissimos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr id="projetos" class="space" />
+
+                <div class="row">
+                        <div class="col-md-6">
+                            <h2>
+                                Objetivos Sustentáveis
+                            </h2>
+                            <p>
+                                Nossa equipe de especialistas nas áreas de arquitetura, engenharia, gerenciamento e construção traz a visão e o aconselhamento que você precisa para o seu projeto.                    </p>
+                            <ul class="fa-ul text-s ul-dots">
+                                <li>Materiais e óleos ecológicos</li>
+                                <li>Caridade humana para países do terceiro mundo</li>
+                                <li>Produtos renováveis do zero</li>
+                            </ul>
+                            <hr class="space l" />
+                            <a href="../index-construction.html/empreendimentos.html" class="btn btn-sm">Sobre Nossos Empreendimentos</a>
+                            <hr class="space visible-xs" />
+                        </div>
+                        <div class="col-md-3">
+                            <a class="img-box thumbnail lightbox row-12" data-lightbox-anima="fade-left" href="https://static.wixstatic.com/media/b8d4bf_13ba02d76c324ab78b849dabddd12132~mv2_d_4928_6938_s_4_2.jpg/v1/fill/w_593,h_835,al_c,q_85,usm_0.66_1.00_0.01/b8d4bf_13ba02d76c324ab78b849dabddd12132~mv2_d_4928_6938_s_4_2.webp">
+                                <span><img src="https://static.wixstatic.com/media/b8d4bf_13ba02d76c324ab78b849dabddd12132~mv2_d_4928_6938_s_4_2.jpg/v1/fill/w_593,h_835,al_c,q_85,usm_0.66_1.00_0.01/b8d4bf_13ba02d76c324ab78b849dabddd12132~mv2_d_4928_6938_s_4_2.webp" alt=""></span>
+                            </a>
+                        </div>
+                        <div class="col-md-3 hidden-sm">
+                            <a class="img-box thumbnail lightbox row-12" data-lightbox-anima="fade-left" href="../images/green-2.jpg">
+                                <span><img src="{% static 'images/gallery/image-7.jpg' %}" alt=""></span>
+                            </a>
+                        </div>
+                    </div>
+                    <hr class="space" />
+            </div>
+        </div>
+
+    <div class="section-bg-image parallax-window white" data-natural-height="1080" data-natural-width="1920" data-parallax="scroll" data-image-src="{% static 'images/hd-5.jpg' %}">
+        <div class="container content">
+            <div class="row vertical-row">
+                <div class="col-md-6 text-left-xs">
+                    <h2 class="text-color">SEU ESPAÇO COM SEGURANÇA E QUALIDADE</h2>
+                    <p>
+                        Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                    <hr class="space" />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="icon-box icon-box-top-bottom counter-box-icon text-left">
+                                <div class="icon-box-cell">
+                                    <i class="im-structure text-xl"></i>
+                                </div>
+                                <div class="icon-box-cell">
+                                    <b><label class="counter text-l  text-color" data-speed="54836" data-to="68368"></label></b>
+                                    <p class="text-s">METROS QUADRADOS CONSTRUIDOS</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="icon-box icon-box-top-bottom counter-box-icon text-left">
+                                <div class="icon-box-cell">
+                                    <i class="im-engineering text-xl"></i>
+                                </div>
+                                <div class="icon-box-cell">
+                                    <b><label class="counter text-l text-color" data-speed="4875" data-to="5937"></label></b>
+                                    <p class="text-s">TRABALHARAM CONOSCO</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-left-xs">
+                        <a class="btn btn-lg btn-icon" href="#!">
+                            <i class="fa im-play"></i>FALAR COM CONSULTOR</a>
+                    <!-- <a href="#" class="btn btn-border btn-lg">Entrar em contato com consultor</a> -->
+                </div>
+                   
+            </div>
+        </div>
+    </div>
+    <div id="empreendimentos" class="section-empty">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Acompanhhe Nossos<br />Empreendimentos</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                        Utenim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore.
+                    </p>
+                </div>
+            </div>
+            <hr class="space" />
+            <div class="tab-box left" data-tab-anima="fade-in">
+                <ul class="nav nav-tabs col-md-4">
+                    <li class="active"><a>Mobi Tower</a></li>
+                    <li><a>Green Life</a></li>
+                    <li><a>Gold Center</a></li>
+                    <li><a>Residencial Dakota</a></li>
+                    <hr class="space l" />
+                            <a href="../index-construction.html/empreendimentos.html" class="btn btn-sm">Conheça Melhor</a>
+                            <hr class="space visible-xs" />
+                </ul>
+                
+                <div class="panel-box col-md-8">
+                    <div class="panel active">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Etapas</h4>
+                                <p>Lorem ipsum dolor sit amet  commodo cons.</p>
+                                <hr class="space xs"/>
+                                <p class="progress-label">Acabamento</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="83">
+                                        <span><span class="counter" data-to="83">83</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Paisagismo</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Instalações</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="65">
+                                        <span><span class="counter" data-to="65">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Alvenaria</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                
+                            </div>
+                            <div class="col-md-6">
+                                    <hr class="space m" />
+                                    <hr class="space m" />
+                                    <p class="progress-label">Estrutura</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="57">
+                                            <span><span class="counter" data-to="57">57</span> %</span>
+                                        </div>
+                                    </div>
+                                    <hr class="space m" />
+                                    <p class="progress-label">Fundação</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="57">
+                                            <span><span class="counter" data-to="57">57</span> %</span>
+                                        </div>
+                                    </div>
+                                    <hr class="space m" />
+                                    <p class="progress-label">Terraplanagem</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="57">
+                                            <span><span class="counter" data-to="57">57</span> %</span>
+                                        </div>
+                                    </div>
+                                    <hr class="space m" />
+                                    <p class="progress-label">Projeto</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" data-progress="57">
+                                            <span><span class="counter" data-to="57">57</span> %</span>
+                                        </div>
+                                    </div>
+                                    <hr class="space m" />
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="panel">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4>Etapas</h4>
+                                <p>Lorem ipsum dolor sit amet  commodo cons.</p>
+                                <hr class="space xs"/>
+                                <p class="progress-label">Acabamento</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="83">
+                                        <span><span class="counter" data-to="83">83</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Paisagismo</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Instalações</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="65">
+                                        <span><span class="counter" data-to="65">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Alvenaria</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                
+                            </div>
+                            <div class="col-md-6">
+                                    <hr class="space m" />
+                                    <hr class="space m" />
+                                    <p class="progress-label">Estrutura</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="57">
+                                    <span><span class="counter" data-to="57">57</span> %</span>
+                                </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Fundação</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Terraplanagem</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Projeto</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                            <!-- <a class="img-box i-center lightbox mfp-iframe row-9 thumbnail" data-lightbox-anima="fade-top" href="https://www.youtube-nocookie.com/embed/DrjA0cMEI5s?controls=0">
+                                <i class="im-play"></i>
+                                <span><img src="../images/gallery/image-26.jpg" alt=""></span>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+                    <div class="panel">
+                        <div class="row">
+                            <div class="col-md-6">
+                            <h4>Etapas</h4>
+                            <p>Lorem ipsum dolor sit amet  commodo cons.</p>
+                            <hr class="space xs"/>
+                            <p class="progress-label">Acabamento</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="83">
+                                    <span><span class="counter" data-to="83">83</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            <p class="progress-label">Paisagismo</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="57">
+                                    <span><span class="counter" data-to="57">57</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            <p class="progress-label">Instalações</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="65">
+                                    <span><span class="counter" data-to="65">57</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            <p class="progress-label">Alvenaria</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="57">
+                                    <span><span class="counter" data-to="57">57</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            
+                        </div>
+                        <div class="col-md-6">
+                                <hr class="space m" />
+                                <hr class="space m" />
+                                <p class="progress-label">Estrutura</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Fundação</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Terraplanagem</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Projeto</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                            <!-- <a class="img-box i-center lightbox mfp-iframe row-9 thumbnail" data-lightbox-anima="fade-top" href="https://www.youtube-nocookie.com/embed/DrjA0cMEI5s?controls=0">
+                                <i class="im-play"></i>
+                                <span><img src="../images/gallery/image-26.jpg" alt=""></span>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="panel">
+                        <div class="row">
+                            <div class="col-md-6">
+                            <h4>Etapas</h4>
+                            <p>Lorem ipsum dolor sit amet  commodo cons.</p>
+                            <hr class="space xs"/>
+                            <p class="progress-label">Acabamento</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="83">
+                                    <span><span class="counter" data-to="83">83</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            <p class="progress-label">Paisagismo</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="57">
+                                    <span><span class="counter" data-to="57">57</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            <p class="progress-label">Instalações</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="65">
+                                    <span><span class="counter" data-to="65">57</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            <p class="progress-label">Alvenaria</p>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="57">
+                                    <span><span class="counter" data-to="57">57</span> %</span>
+                                </div>
+                            </div>
+                            <hr class="space m" />
+                            
+                        </div>
+                        <div class="col-md-6">
+                                <hr class="space m" />
+                                <hr class="space m" />
+                                <p class="progress-label">Estrutura</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Fundação</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Terraplanagem</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                                <p class="progress-label">Projeto</p>
+                                <div class="progress">
+                                    <div class="progress-bar" data-progress="57">
+                                        <span><span class="counter" data-to="57">57</span> %</span>
+                                    </div>
+                                </div>
+                                <hr class="space m" />
+                            <!-- <a class="img-box i-center lightbox mfp-iframe row-9 thumbnail" data-lightbox-anima="fade-top" href="https://www.youtube-nocookie.com/embed/DrjA0cMEI5s?controls=0">
+                                <i class="im-play"></i>
+                                <span><img src="../images/gallery/image-26.jpg" alt=""></span>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-empty bg-white">
+        <div class="container content">
+            <div class="flexslider carousel png-over" data-options="numItems:5,minWidth:100,itemMargin:60,controlNav:true,directionNav:false">
+                <ul class="slides">
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-1.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-2.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-3.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-4.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-5.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-6.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-1.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-2.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-3.png' %}" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="img-box" href="#">
+                            <img src="{% static 'images/logos/logo-4.png' %}" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contato" class="section-empty">
+        <div class="container content">
+            <div class="row proporzional-row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contate-nos agora!</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua.
+                    </p>
+                    <hr class="space l" />
+                    <form action="http://www.framework-y.com/scripts/php/contact-form.php" class="form-box form-ajax" method="post">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <p>Nome</p>
+                                <input id="name" name="name" placeholder="" type="text" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-4">
+                                <p>E-mail</p>
+                                <input id="email" name="email" placeholder="" type="email" class="form-control form-value" required>
+                            </div>
+                            <div class="col-md-4">
+                                <p>Telefone</p>
+                                <input id="phone" name="phone" placeholder="" type="text" class="form-control form-value">
+                            </div>
+                        </div>
+                        <hr class="space xs" />
+                        <p>Mensagem</p>
+                        <textarea id="messagge" name="messagge" placeholder="" class="form-control form-value" required></textarea>
+                        <hr class="space s" />
+                        <button class="btn-sm btn">Enviar Mensagem</button>
+                        <div class="success-box">
+                            <div class="alert alert-success">Parabéns. Sua mensagem foi enviada com sucesso</div>
+                        </div>
+                        <div class="error-box">
+                            <div class="alert alert-warning">Erro, por favor, tente novamente. Sua mensagem não foi enviada</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-12 boxed-inverse">
+                    <ul class="list-texts list-texts-justified">
+                        <li><b>Address:</b> <span>Sturlly Technologies, PO Box 16122, London</span></li>
+                        <li><b>Offices:</b> <span>Studio Massimo, PO Box 16120, Street</span></li>
+                        <li><b>Skype:</b> <span>company.name</span></li>
+                        <li><b>Phones:</b> <span>(123) 0 123 455669 |  (123) 0 123 455600</span></li>
+                        <li><b>Emails:</b> <span>info@example.com | sales@example.com</span></li>
+                    </ul>
+                    <hr class="space m" />
+                    <table class="grid-table border-table text-left">
+                        <tbody>
+                            <tr>
+                                <td><a href="#" class="btn-border btn btn-xs">Marketing</a></td>
+                                <td><a href="#" class="btn-border btn btn-xs">Press area</a></td>
+                                <td><a href="#" class="btn-border btn btn-xs">Support</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="space m" />
+                    <div class="btn-group social-group btn-group-icons">
+                        <a target="_blank" href="https://fb.com/construtoradakota" data-toggle="tooltip" data-placement="top" title="Facebook">
+                            <i class="fa fa-facebook text-s"></i>
+                        </a>
+                        <a target="_blank" href="https://instagram.com/construtoradakota" data-toggle="tooltip" data-placement="top" title="Instagram">
+                            <i class="fa fa-instagram text-s"></i>
+                        </a>
+                        <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="Google+">
+                            <i class="fa fa-google-plus text-s"></i>
+                        </a>
+                        <a target="_blank" href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn">
+                            <i class="fa fa-linkedin text-s"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
+    <footer class="footer-base">
+        <div class="container content">
+            <div class="row">
+                <div class="row copy-row">
+                    <div class="col-md-12 copy-text">
+                        <p class="text-s" style="color: bisque">
+                            © 2019 Construtora Dakota
+                        </p>
+                        <hr class="space xs" /> 
+                        <div>
+                            <a target="_blank" href="http://pensealpz.com.br/" style="color: bisque" >Rumo ao topo com a <img height="30px" src="{% static 'images/logo-alpz.png' %}"></a> 
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+
+
+        <script src="{% static 'scripts/jquery.min.js' %}"></script>
+        <script src="{% static 'scripts/parallax.min.js' %}"></script>
+        <script src="{% static 'scripts/script.js' %}"></script>
+        <script src="{% static 'scripts/bootstrap/js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'scripts/imagesloaded.min.js' %}"></script>
+        <script src="{% static 'scripts/jquery.magnific-popup.min.js' %}"></script>
+        <script src="{% static 'scripts/flexslider/jquery.flexslider-min.js' %}"></script>
+        <script src="{% static 'scripts/jquery.tab-accordion.js' %}"></script>
+        <script src="{% static 'scripts/isotope.min.js' %}"></script>
+        <script src="{% static 'scripts/social.stream.min.js' %}"></script>
+        <script src="{% static 'scripts/bootstrap/js/bootstrap.popover.min.js' %}"></script>
+        <script src="{% static 'scripts/php/contact-form.js' %}"></script>
+        <script src="{% static 'scripts/jquery.progress-counter.js' %}"></script>
+        <script src="{% static 'scripts/smooth.scroll.min.js' %}"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="{% static 'scripts/google.maps.min.js' %}"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDl7p8SWg-5kLe7i-usdYCu5m3eVllMDTs"></script>
+        <script>
+            AOS.init();
+        </script>
+    </footer>
+</body>
+</html>
