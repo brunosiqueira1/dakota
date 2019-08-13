@@ -1,1 +1,9 @@
 Django==2.0.4
+python-decouple
+dj-database-url
+psycopg2-binary
+
+
+# Heroku
+gunicorn
+# whitenoise
