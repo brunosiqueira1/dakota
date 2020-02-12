@@ -1,4 +1,4 @@
-Django==2.0.4
+Django==2.2.10
 python-decouple
 dj-database-url
 psycopg2-binary
